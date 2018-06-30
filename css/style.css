@@ -1,0 +1,83 @@
+/* ---- reset ---- */
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+} /* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #696969;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+} /* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+.js-count-particles {
+  font-size: 1.1em;
+}
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+@import url(https://cdn.rawgit.com/tonsky/FiraCode/1.205/distr/fira_code.css);
+#wrapper {
+  font-family: 'Source Sans Pro';
+  font-size:1.3em;
+  position: absolute;
+  z-index:10;
+  width:400px;
+  height:220px;
+  top:50%;
+  left:50%;
+  margin:-110px 0 0 -200px;
+  padding:20px;
+  z-index:100;
+}
+h1 {
+    font-size:1.8em;
+    font-weight:700;
+    text-align:center;
+    color:#ffffff;
+    margin-top:-4px;
+}
+p {
+    font-family: 'Fira Code';
+    font-size:0.9em;
+    font-weight:700;
+    text-align:center;
+    color: white;
+    margin-top:-4px;
+}
+a {color: white;}      
+a:visited {color: white;}
+a:hover {color: white;}  
+a:active {color: white;}
